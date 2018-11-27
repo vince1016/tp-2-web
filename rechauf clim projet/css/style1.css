@@ -1,0 +1,145 @@
+body {background-color:#15b03745;}
+a.selecteur{
+  font-family: Bodoni MT Black ;
+text-align: right;}
+a{font-family: Arial ;
+font-family: fantasy;}
+img#terre{
+width: 71px;
+height: 71px;}
+div.container-fluid {
+  margin-right: 10px;
+  margin-left: auto;
+  padding-left: 15em;
+  padding-right: 10px;
+}
+a:hover{color: #ff009f !important}
+a#activenow{border-bottom: 1px solid #1f2126;
+background-color: #ff009f}
+#par:hover{    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;}
+#graphique{width: 1000px;
+margin-left: 250px;
+margin-right: auto;}
+#cred{text-align: center;
+}
+#aride{width: 500px;
+margin-left: 500px;}
+#reference{color: blue;
+}
+#pouce{width: 400px;
+height: 600px;
+}
+#reference:hover{color: blue!important;}
+#prisedeconcience{text-align: center;}
+.arct{margin-left: 500px;
+margin-right: auto;}
+#arc1{margin-left: 400px;
+margin-right: auto;}
+#temoi{background-color: pink;}
+.vid{width: 500px;
+height:507px;}
+#form{margin-top: 150px;}
+#imgarc{box-shadow: 8px 4px .5px #aaa;}
+.bg-light{background-color: black !important;}
+.navbar-light .navbar-nav .nav-link{text-align: center;
+  color: white }
+.navbar-light .navbar-toggler-icon {background-image: url(https://cdn-images-1.medium.com/max/1600/1*TlgXIboiNz2O--aCYYztBg.png);}
+.navbar-form .input-group > .form-control {
+  width: 100%;
+  color: blue;
+}
+.navbar-inverse{
+  background-color: #000;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* carousel */
+img#test{align-self: center;
+  width: auto;
+height: auto;}
+.carousel-inner {
+  border-radius: 15px;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,.1);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+
+
+.section-white {
+   padding: 10px 0;
+}
+
+.section-white {
+  background-color: #bfe9c8;
+  color: #555;
+}
+
+@media screen and (min-width: 768px) {
+
+  .section-white {
+     padding: 1.5em 0;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .container {
+    max-width: 930px;
+  }
+  .element{margin: auto;
+  border: 35em;
+font-family: 'Anton', sans-serif;
+color: white}
+  #conteneur
+  {
+      display: flex;
+  }
+  footer{ position: sticky;
+   bottom:0;
+   width:100%;
+   height:60px;
+   background:#6cf;
+    height: auto;
+  background: black;}
+  p#par{color: #4ffeff;}
