@@ -57,7 +57,7 @@ var reponseUtilisateur = 0;
   * @description Liste des questions disponibles pour le quiz.
   * @example [["Quel est le meilleur aliment pour votre santé?", 1, "https://www.google.ca" ,"Brocoli","Croustilles sans OGM","Crème glacée","Poutine déjeuner"]]
   */
-var tableauQuestions = [[]];
+var tableauQuestions = [[""]];
 
 /**
   * @global
@@ -83,7 +83,7 @@ function choisirQuestions()
  */
 function init() 
 {
-	
+	choisirQuestions();
 }
 
 window.onload = init;
