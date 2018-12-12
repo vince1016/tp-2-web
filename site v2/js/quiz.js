@@ -1,7 +1,7 @@
 /**
  * @module quiz.js
- * @author Coéquipier1
- * @author Coéquipier2
+ * @author Vincent Boies
+ * @author Olivier Norton
  * @copyright 2018
  */
 
@@ -14,7 +14,13 @@
  */
 function validerQuestion(noQuestion, choixUtilisateur)
 {
-	//ajouter votre code ici
+	var question = tableauQuestions[noQuestion];
+	var isCorrect = false;
+	if(question[1] == choixUtilisateur){
+		isCorrect = true;
+	}
+	console.log(isCorrect);
+	return isCorrect;
 }
 
 /**
@@ -168,12 +174,20 @@ function majInterface()
 
 /**
  * @name selectionnerChoix
- * @description Modifie l'interface pour changer l'apparence du bouton cliqué et activer le bouton Valider.
+ * @description Modifie l'interface pour changer l'apparence du bouton cliqué et valider
  * @param {*} noChoix Numéro du choix de réponse sélectionné.
  */
 function selectionnerChoix(noChoix)
 {
-	//ajouter votre code ici
+	var boiteChoix = document.getElementById("boiteChoix");
+	var corectAnswer = validerQuestion(questionCourante,noChoix);
+	if(corectAnswer == true){
+		boiteChoix.children[noChoix].style.backgroundColor = 'green';
+	}
+	else{
+		boiteChoix.children[noChoix].style.backgroundColor = 'red';
+	}
+
 }
 
 /**
