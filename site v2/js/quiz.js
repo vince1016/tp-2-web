@@ -29,7 +29,7 @@ function validerQuestion(noQuestion, choixUtilisateur)
  */
 function ajouterPoint()
 {
-	//ajouter votre code ici
+	totalPointage++;
 }
 
 /**
@@ -39,7 +39,7 @@ function ajouterPoint()
  */
 function obtenirPointage()
 {
-	//ajouter votre code ici
+	return totalPointage;
 }
 
 /**
@@ -50,7 +50,11 @@ function obtenirPointage()
  */
 function estFinPartie(questionCourante)
 {
-	//ajouter votre code ici
+	var isGameEnd = false;
+	if(questionCourante == MAX_QUESTIONS){
+		isGameEnd = true;
+	}
+	return isGameEnd;
 }
 
 /**
@@ -59,7 +63,7 @@ function estFinPartie(questionCourante)
  */
 function chargerQuestionSuivante()
 {
-	//ajouter votre code ici
+	questionCourante++;
 }
 
 /**
@@ -70,7 +74,10 @@ function chargerQuestionSuivante()
  */
 function obtenirBonneReponse(noQuestion)
 {
-	//ajouter votre code ici
+	var question = tableauQuestions[noQuestion];
+	var indexBonneReponse = question[1];
+	var bonneReponse = question[indexBonneReponse];
+	return bonneReponse;
 }
 
 /**
@@ -81,7 +88,13 @@ function obtenirBonneReponse(noQuestion)
  */
 function obtenirChoix(noQuestion)
 {
-	//ajouter votre code ici
+	var question = tableauQuestions[noQuestion];
+	
+	var choixReponses = new Array(0);
+	for(var i=3;i<question.length;i++){
+		choixReponses.push(question[i]);
+	}
+	return tableauQuestions;
 }
 
 /**
@@ -91,7 +104,10 @@ function obtenirChoix(noQuestion)
  */
 function afficherBonneReponse(noQuestion)
 {
-	//ajouter votre code ici
+	var question = tableauQuestions[noQuestion];
+	var indexBonneReponse = question[1];
+	document.getElementById("boiteChoix").children[indexBonneReponse].style.backgroundColor='green';
+
 }
 
 /**
@@ -119,7 +135,11 @@ function majTotalQuestion()
  */
 function majTexteChoix(noQuestion)
 {
-	//ajouter votre code ici
+	var boiteChoix = document.getElementById("boiteChoi");
+	for(var i=0;i<boiteChoix.children,length;i++){
+	boiteChoix.children[i].children[0];
+	
+	}
 }
 
 /**
@@ -169,7 +189,7 @@ function majProgression()
  */
 function majInterface()
 {
-	//ajouter votre code ici
+	boiteChoix.children[noChoix]
 }
 
 /**
@@ -183,9 +203,12 @@ function selectionnerChoix(noChoix)
 	var corectAnswer = validerQuestion(questionCourante,noChoix);
 	if(corectAnswer == true){
 		boiteChoix.children[noChoix].style.backgroundColor = 'green';
+		ajouterPoint();
+
 	}
 	else{
 		boiteChoix.children[noChoix].style.backgroundColor = 'red';
+		afficherBonneReponse(questionCourante);
 	}
 
 }

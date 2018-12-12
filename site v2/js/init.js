@@ -58,16 +58,16 @@ var reponseUtilisateur = 0;
   * @example [["Quel est le meilleur aliment pour votre santé?", 1, "https://www.google.ca" ,"Brocoli","Croustilles sans OGM","Crème glacée","Poutine déjeuner"]]
   */
 var tableauQuestions = [
-["une carrote est quel couleur?", 3, "http://lmgtfy.com/?t=i&q=carotte", "une carrote est quel couleur-pogo","une carrote est quel couleur-scooter","une carrote est quel couleur-barbotte","une carrote est quel couleur-orange"],
-["quel son fait le brocolie?", 1, "http://lmgtfy.com/?t=v&q=brocolie+sound","quel son fait le brocolie-ratatata","quel son fait le brocolie-brzbrz", "quel son fait le brocolie-...","quel son fait le brocolie-Un peu comme un camion"],
-["quel espece est la plus menacer de disparaitre?", 1 ,"http://lmgtfy.com/?t=i&q=banane","quel espece est la plus menacer de disparaitre-la patate d'afrique","quel espece est la plus menacer de disparaitre-la banane","quel espece est la plus menacer de disparaitre-la ciboulette cosmique","quel espece est la plus menacer de disparaitre-les baie enrober de chocolat"],
-["jusqu'à quelle vitesse un radis peu courrir?", 2, "http://lmgtfy.com/?t=i&q=radis+qui+cour","jusqu'à quelle vitesse un radis peu courrir-flash macqueen","jusqu'à quelle vitesse un radis peu courrir-buzz l'éclaire","jusqu'à quelle vitesse un radis peu courrir-pas vite","jusqu'à quelle vitesse un radis peu courrir-hello world??"],
-["pourquoi les chat detruit les plante?", 0, "http://lmgtfy.com/?t=i&q=chat+qui+mange+une+plante", "pourquoi les chat detruit les plante-il veulent tuer les humains pour dominer la terre","pourquoi les chat detruit les plante-car ils sont con","pourquoi les chat detruit les plante-car comme batman,leur parent on souvent ete agresser par les plante","pourquoi les chat detruit les plante-le blnace est une jolie couleur"],
-["comment les salades se font manger?", 2, "http://lmgtfy.com/?t=i&q=homme+mangant+de+la+salade","comment les salades se font manger-par les pied","comment les salades se font manger-pae les cheveux","comment les salades se font manger-par la bouche","aucune des reponse"],
-["les boisson sante sont-elles santé?", 0, "http://lmgtfy.com/?t=i&q=ok+meme","les boisson sante sont-elles santé?-probablement si cela s'appel boisson snaté","les boisson sante sont-elles santé?-choisi la bonne question","les boisson sante sont-elles santé?-pas sur???","les boisson sante sont-elles santé?-tu es froid..."],
-["les question son divertissante", 1, "http://lmgtfy.com/?t=i&q=oui","les question son divertissante-non","les question son divertissante-stp vincent enleve pas de point pour ca","les question son divertissante-peut-etre","les question son divertissante-ne sais pas"],
-["je n'est pus d'ider" , 0, "http://lmgtfy.com/?t=i&q=je+ne+sais+pas","je n'est pus d'ider-pokemon","je n'est pus d'ider-chevre","je n'est pus d'ider-bouteil","je n'est pus d'ider-les bails cegep ste-foy"],
-["smash bros est cool", 0, "http://lmgtfy.com/?t=i&q=pu+d%27idee", "smash bros est cool-oui", "smash bros est cool-non","smash bros est cool-pichu gere","smash bros est cool-..."]];
+["une carrote est quel couleur?", 3, "http://lmgtfy.com/?t=i&q=carotte", "pogo","scooter","barbotte","orange"],
+["quel son fait le brocolie?", 1, "http://lmgtfy.com/?t=v&q=brocolie+sound","ratatata","brzbrz", "...","Un peu comme un camion"],
+["quel espece est la plus menacer de disparaitre?", 1 ,"http://lmgtfy.com/?t=i&q=banane","la patate d'afrique","la banane","la ciboulette cosmique","les baie enrober de chocolat"],
+["jusqu'à quelle vitesse un radis peu courrir?", 2, "http://lmgtfy.com/?t=i&q=radis+qui+cour","flash macqueen","buzz l'éclaire","pas vite","hello world??"],
+["pourquoi les chat detruit les plante?", 0, "http://lmgtfy.com/?t=i&q=chat+qui+mange+une+plante", "il veulent tuer les humains pour dominer la terre","car ils sont con","car comme batman,leur parent on souvent ete agresser par les plante","le blnace est une jolie couleur"],
+["comment les salades se font manger?", 2, "http://lmgtfy.com/?t=i&q=homme+mangant+de+la+salade","par les pied","par les cheveux","par la bouche","aucune des reponse"],
+["les boisson sante sont-elles santé?", 0, "http://lmgtfy.com/?t=i&q=ok+meme","probablement si cela s'appel boisson snaté","elles santé?-choisi la bonne question","elles santé?-pas sur???","tu es froid..."],
+["les question son divertissante", 1, "http://lmgtfy.com/?t=i&q=oui","non","stp vincent enleve pas de point pour ca","peut-etre","ne sais pas"],
+["je n'est pus d'ider" , 0, "http://lmgtfy.com/?t=i&q=je+ne+sais+pas","je n'est pus d'ider-pokemon","chevre","bouteil","les bails cegep ste-foy"],
+["smash bros est cool", 0, "http://lmgtfy.com/?t=i&q=pu+d%27idee", "oui", "non","pichu gere","..."]];
 
 
 /**
