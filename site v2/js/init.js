@@ -113,7 +113,11 @@ function choisirQuestions()
  */
 function init() 
 {
-	choisirQuestions();
+  
+  choisirQuestions();
+  
+  
+
 }
 
 window.onload = init();
