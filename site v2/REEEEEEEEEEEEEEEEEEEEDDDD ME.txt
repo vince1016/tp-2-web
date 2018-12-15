@@ -1,0 +1,18 @@
+donc vincent j'ai reussi a finir le tp a temps sans vraiment avoir eu d'aide... 
+malheureusement, je n'est pas eu le temps de completer mes tests. par contre je peut te dire que 
+la syntaxe est corect(voir assurence qualiter "javas") et je peut te garentir du bon fonctionement du site.
+
+
+chose que je sais!!!
+-la barre de progression ne marche pas ----> manque de temps 
+-le son ne marche pas ------> manque de temps
+-il y a moyen de le faire bugger avant la premiere question en apuillant sur les bouton vide--------->manque de temps
+-le bouton recomencer n'est vraiment pas beau mais fonctionel------>manque de temps
+-et de l'optimisation ----> manque trop de temps
+
+j'en oublie probablement mais le site fonctionne.. yesss!!!!!
+j'aurai pu faire beaucoup mieu je le sais, mais tu sais les circonstance et si en conessance de cause et plus de temps le 
+travail aurait ete mieu.
+
+P.s. (ester egg) la reponse te dictera la voie, la reconaitre tu devra(recomence autan de fois pour la voir hahaha)
+*voir capture d'ecran des push sur github
